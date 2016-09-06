@@ -16,7 +16,13 @@ namespace _01_Calculator
 
         internal static int Sum(int[] numbers)
         {
-            throw new NotImplementedException();
+            int number = 0;
+
+            foreach (int numb in numbers)
+            {
+                number = number + numb;
+            }
+            return number;
         }
     }
 }
