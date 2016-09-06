@@ -54,6 +54,7 @@ namespace _01_Calculator
         [TestMethod]
         public void Factorial()
         {
+            Assert.AreEqual(120, Calculator.Factorial(5));
             //# http://en.wikipedia.org/wiki/Factorial
             //  it "computes the factorial of 0"
             //  it "computes the factorial of 1"
