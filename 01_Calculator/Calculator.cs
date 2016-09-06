@@ -32,5 +32,9 @@ namespace _01_Calculator
         {
             return Math.Pow(v1, v2);
         }
+        internal static double Factorial(int v1, int v2)
+        {
+            return (v1);
+        }
     }
 }
