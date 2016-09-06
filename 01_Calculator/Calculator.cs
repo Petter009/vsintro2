@@ -24,9 +24,13 @@ namespace _01_Calculator
             }
             return number;
         }
-        internal static int Multiply(int v1, int v2)
+        internal static int Multiply(int v1, int v2, int v3)
         {
-            return (v1 * v2);
+            return (v1 * v2 * v3);
+        }
+        internal static int Power(int v1, int v2)
+        {
+            return (v1);
         }
     }
 }

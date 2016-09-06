@@ -36,9 +36,10 @@ namespace _01_Calculator
         [TestMethod]
         public void Multiply()
         {
-            Assert.AreEqual(0, Calculator.Multiply(2, 0));
-            Assert.AreEqual(6, Calculator.Multiply(3, 2));
-            Assert.AreEqual(12, Calculator.Multiply(2, 6));
+            Assert.AreEqual(0, Calculator.Multiply(2, 0, 1));
+            Assert.AreEqual(6, Calculator.Multiply(3, 2, 1));
+            Assert.AreEqual(12, Calculator.Multiply(2, 6, 1));
+            Assert.AreEqual(28, Calculator.Multiply(2, 7, 2));
             //It multiplies two numbers
             //It multiplies several numbers
         }
