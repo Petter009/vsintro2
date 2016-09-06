@@ -28,9 +28,9 @@ namespace _01_Calculator
         {
             return (v1 * v2 * v3);
         }
-        internal static int Power(int v1, int v2)
+        internal static double Power(int v1, int v2)
         {
-            return (v1);
+            return Math.Pow(v1, v2);
         }
     }
 }

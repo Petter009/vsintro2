@@ -46,8 +46,10 @@ namespace _01_Calculator
         [TestMethod]
         public void Power()
         {
+            Assert.AreEqual(4, Calculator.Power(2, 2));
+            Assert.AreEqual(9, Calculator.Power(3, 2));
+            Assert.AreEqual(64, Calculator.Power(2, 6));
             //It raises one number to the power of another number
-            throw new NotImplementedException();
         }
         [TestMethod]
         public void Factorial()
